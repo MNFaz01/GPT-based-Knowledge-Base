@@ -1,4 +1,4 @@
-# Question-Answering App with your own data using OpenAI GenAI Models
+# Question-Answer with your own data using OpenAI GenAI Models
 This is a simple app built using Python's tkinter library that allows you to ask questions and get answers based on a pre-existing document. The app uses the langchain library to perform natural language processing tasks such as text splitting, embeddings, and question answering.
 
 ## Installation
