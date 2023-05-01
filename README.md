@@ -32,11 +32,11 @@ In order to use the OpenAI API, you will need an API key. Follow the instruction
 ## Screenshots  
 Screenshots of the GUI for each script are provided below:  
 
-`Output of single_pdf_reader.py`  
+Output of single_pdf_reader.py
 
 ![GPT4-SingleReader](https://user-images.githubusercontent.com/76795935/235541059-15b03a78-22e2-4f66-89e0-e172f1a75779.png)
 
-`Output of multiple_pdf_reader.py`  
+Output of multiple_pdf_reader.py
 
 ![GPT4-MultiReader](https://user-images.githubusercontent.com/76795935/235541149-de836ec7-e1c6-44da-9cd5-5c5c54515ddb.png)
 
