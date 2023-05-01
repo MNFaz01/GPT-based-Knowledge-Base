@@ -8,17 +8,17 @@ This is a simple app built using Python's tkinter library that allows you to ask
 4. Activate the virtual environment by running `source venv/bin/activate` on macOS/Linux or `venv\Scripts\activate` on Windows.
 5. Install the required dependencies by running `pip install -r requirements.txt` in your terminal.  
 6. Update the .env file with the necessary environment variables. Here is an example .env file:  
-6.1. PDF_PATH = path/to/your/pdf/file.pdf  
-6.2. OPENAI_API_KEY = your_api_key  
-6.3. MODEL_NAME = your_desired_model_name  
+* PDF_PATH = path/to/your/pdf/file.pdf  
+* OPENAI_API_KEY = your_api_key  
+* MODEL_NAME = your_desired_model_name  
 
 In order to use the OpenAI API, you will need an API key. Follow the instructions on the OpenAI website to obtain your API key.
 
 ## Usage
-1. Update the `PDF_PATH` environment variable in the `.env` file to point to your own PDF document.
-2. Run the app.py file using your terminal: `python app.py`
-3. Type in your question in the Question: field and hit the Ask button.
-4. The app will display the most relevant answer based on the pre-existing document.
+* Update the `PDF_PATH` environment variable in the `.env` file to point to your own PDF document.
+* Run the app.py file using your terminal: `python app.py`
+* Type in your question in the Question: field and hit the Ask button.
+* The app will display the most relevant answer based on the pre-existing document.
 
 ## Customization
 You can customize the app by editing the app.py file. For example, you can change the default window size by modifying the `width` and `height` variables.
@@ -28,10 +28,10 @@ You can also modify the `qa` function to change the behavior of the question ans
 ## Credits
 This app uses the following open-source libraries:
 
-langchain and openai for natural language processing tasks
-PyPDF2 for reading PDF documents
-tkinter for building the GUI
-dotenv for loading environment variables
+* langchain and openai for natural language processing tasks  
+* PyPDF2 for reading PDF documents  
+* tkinter for building the GUI  
+* dotenv for loading environment variables  
 
 ## License
 This project is licensed under the MIT License.
