@@ -27,10 +27,10 @@ You can also modify the qa function to change the behavior of the question answe
 ## Credits
 This app uses the following open-source libraries:
 
-langchain for natural language processing tasks
-PyPDF2 for reading PDF documents
-tkinter for building the GUI
-dotenv for loading environment variables
+langchain and openai for natural language processing tasks  
+PyPDF2 for reading PDF documents  
+tkinter for building the GUI  
+dotenv for loading environment variables  
 
 ## License
 This project is licensed under the MIT License.
