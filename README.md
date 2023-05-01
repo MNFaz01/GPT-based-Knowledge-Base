@@ -7,8 +7,6 @@ This is a simple app built using Python's tkinter library that allows you to ask
 3. In order to use the OpenAI API, you will need an API key. Follow the instructions on the OpenAI website to obtain your API key.
 4. Create a .env file in the root directory of the project and fill it with the necessary environment variables. Here is an example .env file:
 
-[makefile]
-
 PDF_PATH = path/to/your/pdf/file.pdf
 OPENAI_API_KEY = your_api_key
 MODEL_NAME = your_desired_model_name
