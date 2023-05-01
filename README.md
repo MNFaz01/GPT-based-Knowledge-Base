@@ -6,7 +6,11 @@ This is a simple app built using Python's tkinter library that allows you to ask
 2. Navigate to the project directory in your terminal.
 3. Create a virtual environment by running `python -m venv venv` in your terminal.
 4. Activate the virtual environment by running `source venv/bin/activate` on macOS/Linux or `venv\Scripts\activate` on Windows.
-5. Install the required dependencies by running `pip install -r requirements.txt` in your terminal.
+5. Install the required dependencies by running `pip install -r requirements.txt` in your terminal.  
+6. Update the .env file with the necessary environment variables. Here is an example .env file:  
+6.1. PDF_PATH = path/to/your/pdf/file.pdf  
+6.2. OPENAI_API_KEY = your_api_key  
+6.3. MODEL_NAME = your_desired_model_name  
 
 In order to use the OpenAI API, you will need an API key. Follow the instructions on the OpenAI website to obtain your API key.
 
