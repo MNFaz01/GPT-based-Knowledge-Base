@@ -34,7 +34,16 @@ Screenshots of the GUI for each script are provided below:
 
 `Output of single_pdf_reader.py`  
 
+![GPT4-SingleReader](https://user-images.githubusercontent.com/76795935/235541059-15b03a78-22e2-4f66-89e0-e172f1a75779.png)
+
 `Output of multiple_pdf_reader.py`  
+
+![GPT4-MultiReader](https://user-images.githubusercontent.com/76795935/235541149-de836ec7-e1c6-44da-9cd5-5c5c54515ddb.png)
+
+![Traditional_DBMS](https://user-images.githubusercontent.com/76795935/235541087-fa62a841-e902-4d36-ad4e-857b5e252530.png)  
+
+![Traditional_DBMS_2_Multi](https://user-images.githubusercontent.com/76795935/235541119-53745bc3-2f3a-4468-a5dd-71c26cee6d65.png)  
+
 
 ## Customization
 You can customize the window size by editing the python scripts. For example, you can change the default window size by modifying the `width` and `height` variables.
