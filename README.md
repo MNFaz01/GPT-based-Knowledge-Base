@@ -2,15 +2,17 @@
 This is a simple app built using Python's tkinter library that allows you to ask questions and get answers based on a pre-existing document. The app uses the langchain library to perform natural language processing tasks such as text splitting, embeddings, and question answering.
 
 ## Installation
-Clone this repository using git clone git@github.com:MNFaz01/GPT-based-Knowledge-Base.git or download as a ZIP file and extract it to your preferred location.
-Install the required dependencies by running pip install -r requirements.txt in your terminal.
-In order to use the OpenAI API, you will need an API key. Follow the instructions on the OpenAI website to obtain your API key.
-Create a .env file in the root directory of the project and fill it with the necessary environment variables. Here is an example .env file:
-makefile
-Copy code
+1. Clone this repository using git clone git@github.com:MNFaz01/GPT-based-Knowledge-Base.git or download as a ZIP file and extract it to your preferred location.
+2. Install the required dependencies by running pip install -r requirements.txt in your terminal.
+3. In order to use the OpenAI API, you will need an API key. Follow the instructions on the OpenAI website to obtain your API key.
+4. Create a .env file in the root directory of the project and fill it with the necessary environment variables. Here is an example .env file:
+
+[makefile]
+
 PDF_PATH = path/to/your/pdf/file.pdf
 OPENAI_API_KEY = your_api_key
 MODEL_NAME = your_desired_model_name
+
 Make sure to update the values to reflect your local environment.
 
 ## Usage
