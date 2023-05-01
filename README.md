@@ -14,10 +14,10 @@ This is a simple app built using Python's tkinter library that allows you to ask
 Make sure to update the values to reflect your local environment.
 
 ## Usage
-Run the app.py file using your terminal: python app.py
-Type in your question in the Question: field and hit the Ask button.
-The app will display the most relevant answer based on the pre-existing document.
-Note: The app uses a pre-existing PDF document to answer questions. You will need to update the PDF_PATH variable in your .env file to point to your own PDF document.
+1. Run the app.py file using your terminal: python app.py  
+2. Type in your question in the Question: field and hit the Ask button.  
+3. The app will display the most relevant answer based on the pre-existing document.  
+Note: The app uses a pre-existing PDF document to answer questions. You will need to update the PDF_PATH variable in your .env file to point to your own PDF document.  
 
 ## Customization
 You can customize the app by editing the app.py file. For example, you can change the default window size by modifying the width and height variables.
