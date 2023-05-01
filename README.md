@@ -1,4 +1,4 @@
-# Question-Answer with your own data using OpenAI GenAI Models
+# Discover the power of OpenAI GenAI Models for Question-Answering with your own data!
 
 This project provides two Python scripts that allow you to ask questions and receive answers from PDF documents. The app uses the langchain library to perform natural language processing tasks such as text splitting, embeddings, and question answering.
 
