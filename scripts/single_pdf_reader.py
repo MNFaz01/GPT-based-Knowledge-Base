@@ -4,21 +4,25 @@
 # In[ ]:
 
 
+# Importing all the packages
+
+import os
 import tkinter as tk
 from PyPDF2 import PdfReader
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
-from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 from langchain.chains import RetrievalQA
+from langchain.document_loaders import UnstructuredPDFLoader
+from langchain.indexes.vectorstore import VectorstoreIndexCreator
 from dotenv import load_dotenv
-import os
 
+# Load environment variables
 env_path = os.path.join(os.getcwd(), '.env')
 load_dotenv(dotenv_path=env_path)
 
-pdf_path = os.getenv('PDF_PATH')
+pdf_path = os.getenv('PDF_PATH_SINGLE')
 openai_api_key = os.getenv('OPENAI_API_KEY')
 model_name = os.getenv('MODEL_NAME')
 
@@ -86,4 +90,10 @@ answer_text.pack()
 
 # run the tkinter event loop
 window.mainloop()
+
+
+# In[ ]:
+
+
+
 
